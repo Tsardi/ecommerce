@@ -9,8 +9,7 @@ const Cart: React.FC = () => {
 
   const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0);
 
-  // FIX: Ensured the 'total' accumulator in reduce is treated as a number.
-  // The 'toFixed' method is called on the final numerical result.
+ 
   const totalPrice = cartItems
     .reduce((total, item) => total + item.price * item.quantity, 0)
     .toFixed(2);
