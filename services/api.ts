@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Corrected: Consistent constant naming
+
 const API_BASE_URL = 'https://fakestoreapi.com';
 
 export interface Product {
@@ -16,7 +16,6 @@ export interface Product {
   };
 }
 
-// Corrected: 'promise' to 'Promise'
 export const fetchProducts = async (category?: string): Promise<Product[]> => {
   const url = category ? `${API_BASE_URL}/products/category/${category}` : `${API_BASE_URL}/products`;
   // Corrected: 'Products[]' to 'Product[]'
