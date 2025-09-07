@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h1>
+        E-Commerce Store
+      </h1>
+    </header>
+    <main>
+      <div>
+        Loading...
+      </div>
+      <div
+        class="cart"
+      >
+        <h2>
+          Shopping Cart
+        </h2>
+        <p>
+          Your cart is empty.
+        </p>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;
